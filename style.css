@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
+                
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-family: "Arimo", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+html{
+    font-family: "Porter Sans Block", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+body {
+    border: 12px solid rgb(117, 120, 122);
+    max-width: 1340px;
+    margin: 2rem;
+}
+
+image class{
+border: 2px solid black;
+}
+h1 {
+    font-family: 'Porter Sans Block', sans-serif;
+    color: aliceblue;
+    letter-spacing: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-indent: 1rem;
+    margin: 0;
+}
+h2{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    letter-spacing: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-indent: 1rem;
+    padding: 2rem;
+    margin: 0;
+}
+header{
+    background-color: brown;
+    height: 3rem;
+    text-align: center;
+    word-spacing: 5rem;
+    text-indent: 1rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+header a{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    padding: 0.4rem;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Arimo', sans-serif;
+}
+.fire-container{
+    text-align: center;
+    position:relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+.fire-container{
+    max-width: 100%;
+}
+.fire-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.info p{
+    margin: 2rem;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+.detail-img .detail-image-left {
+    width: 50%;
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0.5rem;  
+}
+.details2 .detail-image-right{
+    width: 50%;
+    display:block;
+    float: right ;
+    padding: 0.5rem;
+}
+.info1 p{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-size: large;
+}
+
+
+.info2 p{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    width: 50%;
+    float: right;
+    font-size: large;
+}
+.details3 .detail-image-left{
+    width: 30%;
+    float: left;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+}
+.details4 .detail-image-right{
+    width: 65%;
+    float: right;
+    display: block;
+    margin: auto;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.info3{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    width: 30%;
+    float: left;
+    font-size: large;
+}
+.info4{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    width: 50%;
+    float: right;
+    font-size: large;
+}
+.info5{
+    margin: 1rem;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    font-size: larger;
+}
+.details5 .detail-image-left{
+    width: 60%;
+    float: left;
+    margin-right:10px ;  
+    padding: 0.5rem;
+}
+.details5 .details-text h2{
+    font-family: 'Arimo', sans-serif;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 0.2rem;
+
+}
+.details5 .details-text p{
+    font-family: 'Arimo', sans-serif;
+    margin-left: 10px;
+    font-size: larger;
+    display: block;
+    padding: 0.5rem;
+    
+}
